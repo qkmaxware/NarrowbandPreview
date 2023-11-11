@@ -17,6 +17,9 @@
 			#results .w3-card {
 				display: inline-block;
 			}
+			#results img {
+				cursor: pointer;
+			}
 		</style>
 	</head>
 	<body>
@@ -105,37 +108,37 @@
 			<div id="triplets" class="w3-row w3-padding">
 				<h3>Tri-Colour</h3>
 				<div class="w3-card w3-margin" style="width: 360px;">
-					<img id="HSO" style="width: 100%; max-height: 360px;">
+					<img id="HSO" style="width: 100%; max-height: 360px;" onclick="expand(this)">
 					<div class="w3-bar w3-center w3-grey">
 						<strong>Ha/Sii/Oiii</strong>
 					</div>
 				</div>
 				<div class="w3-card w3-margin" style="width: 360px;">
-					<img id="OSH" style="width: 100%; max-height: 360px;">
+					<img id="OSH" style="width: 100%; max-height: 360px;" onclick="expand(this)">
 					<div class="w3-bar w3-center w3-grey">
 						<strong>Oiii/Sii/Ha</strong>
 					</div>
 				</div>
 				<div class="w3-card w3-margin" style="width: 360px;">
-					<img id="SHO" style="width: 100%; max-height: 360px;">
+					<img id="SHO" style="width: 100%; max-height: 360px;" onclick="expand(this)">
 					<div class="w3-bar w3-center w3-grey">
 						<strong>Sii/Ha/Oiii - HUBBLE PALETTE</strong>
 					</div>
 				</div>
 				<div class="w3-card w3-margin" style="width: 360px;">
-					<img id="HOS" style="width: 100%; max-height: 360px;">
+					<img id="HOS" style="width: 100%; max-height: 360px;" onclick="expand(this)">
 					<div class="w3-bar w3-center w3-grey">
 						<strong>Ha/Oiii/Sii - CFHT PALETTE</strong>
 					</div>
 				</div>
 				<div class="w3-card w3-margin" style="width: 360px;">
-					<img id="OHS" style="width: 100%; max-height: 360px;">
+					<img id="OHS" style="width: 100%; max-height: 360px;" onclick="expand(this)">
 					<div class="w3-bar w3-center w3-grey">
 						<strong>Oiii/Ha/Sii</strong>
 					</div>
 				</div>
 				<div class="w3-card w3-margin" style="width: 360px;">
-					<img id="SOH" style="width: 100%; max-height: 360px;">
+					<img id="SOH" style="width: 100%; max-height: 360px;" onclick="expand(this)">
 					<div class="w3-bar w3-center w3-grey">
 						<strong>Sii/Oiii/Ha</strong>
 					</div>
@@ -144,109 +147,109 @@
 			<div id="doublets" class="w3-row w3-padding">
 				<h3>Bi-Colour</h3>
 				<div class="w3-card w3-margin" style="width: 360px;">
-					<img id="HHO" style="width: 100%; max-height: 360px;">
+					<img id="HHO" style="width: 100%; max-height: 360px;" onclick="expand(this)">
 					<div class="w3-bar w3-center w3-grey">
 						<strong>Ha/Ha/Oiii</strong>
 					</div>
 				</div>
 				<div class="w3-card w3-margin" style="width: 360px;">
-					<img id="HHS" style="width: 100%; max-height: 360px;">
+					<img id="HHS" style="width: 100%; max-height: 360px;" onclick="expand(this)">
 					<div class="w3-bar w3-center w3-grey">
 						<strong>Ha/Ha/Sii</strong>
 					</div>
 				</div>
 				<div class="w3-card w3-margin" style="width: 360px;">
-					<img id="HSS" style="width: 100%; max-height: 360px;">
+					<img id="HSS" style="width: 100%; max-height: 360px;" onclick="expand(this)">
 					<div class="w3-bar w3-center w3-grey">
 						<strong>Ha/Sii/Sii</strong>
 					</div>
 				</div>
 				<div class="w3-card w3-margin" style="width: 360px;">
-					<img id="HOO" style="width: 100%; max-height: 360px;">
+					<img id="HOO" style="width: 100%; max-height: 360px;" onclick="expand(this)">
 					<div class="w3-bar w3-center w3-grey">
 						<strong>Ha/Oiii/Oiii</strong>
 					</div>
 				</div>
 				<div class="w3-card w3-margin" style="width: 360px;">
-					<img id="HOH" style="width: 100%; max-height: 360px;">
+					<img id="HOH" style="width: 100%; max-height: 360px;" onclick="expand(this)">
 					<div class="w3-bar w3-center w3-grey">
 						<strong>Ha/Oiii/Ha</strong>
 					</div>
 				</div>
 				<div class="w3-card w3-margin" style="width: 360px;">
-					<img id="HSH" style="width: 100%; max-height: 360px;">
+					<img id="HSH" style="width: 100%; max-height: 360px;" onclick="expand(this)">
 					<div class="w3-bar w3-center w3-grey">
 						<strong>Ha/Sii/Ha</strong>
 					</div>
 				</div>
 				<div class="w3-card w3-margin" style="width: 360px;">
-					<img id="SSO" style="width: 100%; max-height: 360px;">
+					<img id="SSO" style="width: 100%; max-height: 360px;" onclick="expand(this)">
 					<div class="w3-bar w3-center w3-grey">
 						<strong>Sii/Sii/Oiii</strong>
 					</div>
 				</div>
 				<div class="w3-card w3-margin" style="width: 360px;">
-					<img id="SSH" style="width: 100%; max-height: 360px;">
+					<img id="SSH" style="width: 100%; max-height: 360px;" onclick="expand(this)">
 					<div class="w3-bar w3-center w3-grey">
 						<strong>Sii/Sii/Ha</strong>
 					</div>
 				</div>
 				<div class="w3-card w3-margin" style="width: 360px;">
-					<img id="SHH" style="width: 100%; max-height: 360px;">
+					<img id="SHH" style="width: 100%; max-height: 360px;" onclick="expand(this)">
 					<div class="w3-bar w3-center w3-grey">
 						<strong>Sii/Ha/Ha</strong>
 					</div>
 				</div>
 				<div class="w3-card w3-margin" style="width: 360px;">
-					<img id="SOO" style="width: 100%; max-height: 360px;">
+					<img id="SOO" style="width: 100%; max-height: 360px;" onclick="expand(this)">
 					<div class="w3-bar w3-center w3-grey">
 						<strong>Sii/Oiii/Oiii</strong>
 					</div>
 				</div>
 				<div class="w3-card w3-margin" style="width: 360px;">
-					<img id="SOS" style="width: 100%; max-height: 360px;">
+					<img id="SOS" style="width: 100%; max-height: 360px;" onclick="expand(this)">
 					<div class="w3-bar w3-center w3-grey">
 						<strong>Sii/Oiii/Sii</strong>
 					</div>
 				</div>
 				<div class="w3-card w3-margin" style="width: 360px;">
-					<img id="SHS" style="width: 100%; max-height: 360px;">
+					<img id="SHS" style="width: 100%; max-height: 360px;" onclick="expand(this)">
 					<div class="w3-bar w3-center w3-grey">
 						<strong>Sii/Ha/Sii</strong>
 					</div>
 				</div>
 				<div class="w3-card w3-margin" style="width: 360px;">
-					<img id="OOH" style="width: 100%; max-height: 360px;">
+					<img id="OOH" style="width: 100%; max-height: 360px;" onclick="expand(this)">
 					<div class="w3-bar w3-center w3-grey">
 						<strong>Oiii/Oiii/Ha</strong>
 					</div>
 				</div>
 				<div class="w3-card w3-margin" style="width: 360px;">
-					<img id="OOS" style="width: 100%; max-height: 360px;">
+					<img id="OOS" style="width: 100%; max-height: 360px;" onclick="expand(this)">
 					<div class="w3-bar w3-center w3-grey">
 						<strong>Oiii/Oiii/Sii</strong>
 					</div>
 				</div>
 				<div class="w3-card w3-margin" style="width: 360px;">
-					<img id="OHH" style="width: 100%; max-height: 360px;">
+					<img id="OHH" style="width: 100%; max-height: 360px;" onclick="expand(this)">
 					<div class="w3-bar w3-center w3-grey">
 						<strong>Oiii/Ha/Ha</strong>
 					</div>
 				</div>
 				<div class="w3-card w3-margin" style="width: 360px;">
-					<img id="OSS" style="width: 100%; max-height: 360px;">
+					<img id="OSS" style="width: 100%; max-height: 360px;" onclick="expand(this)">
 					<div class="w3-bar w3-center w3-grey">
 						<strong>Oiii/Sii/Sii</strong>
 					</div>
 				</div>
 				<div class="w3-card w3-margin" style="width: 360px;">
-					<img id="OSO" style="width: 100%; max-height: 360px;">
+					<img id="OSO" style="width: 100%; max-height: 360px;" onclick="expand(this)">
 					<div class="w3-bar w3-center w3-grey">
 						<strong>Oiii/Sii/Oiii</strong>
 					</div>
 				</div>
 				<div class="w3-card w3-margin" style="width: 360px;">
-					<img id="OHO" style="width: 100%; max-height: 360px;">
+					<img id="OHO" style="width: 100%; max-height: 360px;" onclick="expand(this)">
 					<div class="w3-bar w3-center w3-grey">
 						<strong>Oiii/Ha/Oiii</strong>
 					</div>
@@ -255,19 +258,19 @@
 			<div id="units" class="w3-row w3-padding">
 				<h3>Unicolour</h3>
 				<div class="w3-card w3-margin" style="width: 360px;">
-					<img id="H00" style="width: 100%; max-height: 360px;">
+					<img id="H00" style="width: 100%; max-height: 360px;" onclick="expand(this)">
 					<div class="w3-bar w3-center w3-grey">
 						<strong>Ha</strong>
 					</div>
 				</div>
 				<div class="w3-card w3-margin" style="width: 360px;">
-					<img id="0S0" style="width: 100%; max-height: 360px;">
+					<img id="0S0" style="width: 100%; max-height: 360px;" onclick="expand(this)">
 					<div class="w3-bar w3-center w3-grey">
 						<strong>Sii</strong>
 					</div>
 				</div>
 				<div class="w3-card w3-margin" style="width: 360px;">
-					<img id="00O" style="width: 100%; max-height: 360px;">
+					<img id="00O" style="width: 100%; max-height: 360px;" onclick="expand(this)">
 					<div class="w3-bar w3-center w3-grey">
 						<strong>Oiii</strong>
 					</div>
@@ -275,6 +278,16 @@
 			</div>
 		</div>
 		
+		<div id="modal" class="w3-modal w3-hide">
+			<div class="w3-modal-content">
+				<div class="w3-bar w3-padding w3-center w3-grey">
+					<strong>Preview</strong>
+					<span onclick="collapse()" class="w3-button w3-flat w3-display-topright">&times;</span>
+				</div>
+				<img id="large-preview" alt="preview" style="width: 100%;">
+			</div>
+		</div>
+
 		<script>
 			window.components = {
 				r: null,
@@ -410,6 +423,21 @@
 				obj.onload = () => window.components.b = obj;
 				obj.onerror = () => window.components.b = null;
 				obj.src = url;
+			}
+			function expand(el) {
+				var preview = document.getElementById("large-preview");
+				if (preview) {
+					preview.src = el.src; 
+				}
+
+				var modal = document.getElementById("modal");
+				modal.classList.remove("w3-hide");
+				modal.classList.add("w3-show");
+			}
+			function collapse() {
+				var modal = document.getElementById("modal");
+				modal.classList.remove("w3-show");
+				modal.classList.add("w3-hide");
 			}
 		</script>
 	</body>
